@@ -14,8 +14,8 @@ $_SESSION['item'] = array();
 
 $_SESSION['item'][0]['name'] = 'adelaide';
 $_SESSION['item'][0]['rank'] = 1;
-$_SESSION['item'][0]['caption'] = 'Adelaide';
-$_SESSION['item'][0]['trivia'] = '<p>Among most liveable cities in the world. An extraordinary achievement given so few live there. Green credentials backed by policy of frequent random power outages. <small>Rate Lord Mayor: Martin Haese</small></p>';
+$_SESSION['item'][0]['caption'] = 'Adelaide 1.0';
+$_SESSION['item'][0]['trivia'] = '<p> Added by Pavan Among most liveable cities in the world. An extraordinary achievement given so few live there. Green credentials backed by policy of frequent random power outages. <small>Rate Lord Mayor: Martin Haese</small></p>';
 $_SESSION['item'][0]['theme'] = 'cities';
 $_SESSION['item'][0]['filename'] = 'data/images/cities/adelaide.jpg';
 $_SESSION['item'][0]['rating'] = 0;
