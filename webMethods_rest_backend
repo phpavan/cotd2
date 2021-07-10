@@ -1,2 +1,14 @@
-/cats
-  get - getCats
+/cats : 
+  method : get
+  service : getCats
+  host : https://console-openshift-console.apps.cluster-d167.d167.sandbox235.opentlc.com/
+  port : 5555
+  metricsUrl : /metrics
+  liveness : /health
+/cities
+  get : getCities
+  host : https://console-openshift-console.apps.cluster-d167.d167.sandbox235.opentlc.com/
+  port : 5555
+  metrics : /metrics
+
+  
